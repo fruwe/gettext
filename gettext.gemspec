@@ -1,8 +1,10 @@
 # -*- encoding: utf-8 -*-
 
+require 'lib/gettext/version'
+
 Gem::Specification.new do |s|
   s.name = %q{gettext}
-  s.version = "2.0.0"
+  s.version = GetText::VERSION
 
   s.required_rubygems_version = Gem::Requirement.new(">= 1.2") if s.respond_to? :required_rubygems_version=
   s.authors = ["Masao Mutoh"]
